@@ -95,3 +95,15 @@ pCont[4].textContent = 'Vision content elementum magna eros, ac posuere elvit te
 
 let midImg = document.getElementById("middle-img");
 midImg.setAttribute('src', 'img/mid-page-accent.jpg');
+
+
+let contactTop = document.querySelector('.contact h4');
+contactTop.textContent = 'Contact'
+
+let contActp = document.querySelectorAll('.contact p');
+let conTp = Array.from(contActp);
+conTp[0].innerHTML = '123 Way 456 Street<br>Somewhere, USA'
+conTp[1].textContent = '1(888)888-8888'
+conTp[2].textContent = 'sales@greatidea.io'
+
+let footerCont = document.querySelectorAll('footer p');
