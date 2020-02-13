@@ -106,4 +106,5 @@ conTp[0].innerHTML = '123 Way 456 Street<br>Somewhere, USA'
 conTp[1].textContent = '1(888)888-8888'
 conTp[2].textContent = 'sales@greatidea.io'
 
-let footerCont = document.querySelectorAll('footer p');
+let footerCont = document.querySelector('footer p');
+footerCont.textContent = "Copyright Great Idea! 2018"
