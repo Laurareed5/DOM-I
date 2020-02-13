@@ -52,4 +52,18 @@ navB[3].textContent = 'features'
 navB[4].textContent = 'About'
 navB[5].textContent = 'Contact'
 
-const naviGation = document.querySelector('nav');
+// const naviGation = document.querySelector('nav');
+
+let naviGator = document.querySelector('nav');
+let add1 = document.createElement('a');
+add1.textContent = 'Home'
+add1.style.color = 'gray'
+let add2 = document.createElement('a');
+add2.textContent = 'FAQ'
+add2.style.color = 'gray'
+naviGator.prepend(add1)
+naviGator.appendChild(add2)
+
+navB.forEach(x => {
+  x.style.color = 'gray';
+});
