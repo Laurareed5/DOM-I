@@ -40,7 +40,7 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
-logo.setAttribute('src', 'img/logo.png')
+
 
 
 let navBar = document.querySelectorAll('a');
@@ -73,3 +73,6 @@ ctaContent.innerHTML = "DOM<br>Is<br>Awesome";
 
 let ctaButton = document.querySelector(".cta button");
 ctaButton.innerHTML = "Get Started"
+
+let circleImg = document.getElementById("cta-img");
+circleImg.setAttribute('src', 'img/header-img.png');
