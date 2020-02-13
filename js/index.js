@@ -57,13 +57,17 @@ navB[5].textContent = 'Contact'
 let naviGator = document.querySelector('nav');
 let add1 = document.createElement('a');
 add1.textContent = 'Home'
-add1.style.color = 'gray'
+add1.style.color = 'silver'
 let add2 = document.createElement('a');
 add2.textContent = 'FAQ'
-add2.style.color = 'gray'
+add2.style.color = 'silver'
 naviGator.prepend(add1)
 naviGator.appendChild(add2)
 
 navB.forEach(x => {
-  x.style.color = 'gray';
+  x.style.color = 'silver';
 });
+
+
+let ctaContent = document.querySelector('.cta h1');
+ctaContent.innerHTML = "DOM<br>Is<br>Awesome";
