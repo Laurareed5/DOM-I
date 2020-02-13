@@ -42,7 +42,6 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
-
 let navBar = document.querySelectorAll('a');
 let navB = Array.from(navBar);
 navB[0].textContent = 'Services'
@@ -56,15 +55,15 @@ navB[5].textContent = 'Contact'
 let naviGator = document.querySelector('nav');
 let add1 = document.createElement('a');
 add1.textContent = 'Home'
-add1.style.color = 'silver'
+add1.style.color = 'green'
 let add2 = document.createElement('a');
 add2.textContent = 'FAQ'
-add2.style.color = 'silver'
+add2.style.color = 'green'
 naviGator.prepend(add1)
 naviGator.appendChild(add2)
 
 navB.forEach(x => {
-  x.style.color = 'silver';
+  x.style.color = 'green';
 });
 
 
@@ -73,6 +72,7 @@ ctaContent.innerHTML = "DOM<br>Is<br>Awesome";
 
 let ctaButton = document.querySelector(".cta button");
 ctaButton.innerHTML = "Get Started"
+ctaButton.style.background = "#87CEFA"
 
 let circleImg = document.getElementById("cta-img");
 circleImg.setAttribute('src', 'img/header-img.png');
@@ -108,3 +108,11 @@ conTp[2].textContent = 'sales@greatidea.io'
 
 let footerCont = document.querySelector('footer p');
 footerCont.textContent = "Copyright Great Idea! 2018"
+
+let bodyBackground = document.querySelector('body');
+bodyBackground.style.background = 'lavender'
+
+
+
+
+
