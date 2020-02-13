@@ -52,7 +52,6 @@ navB[3].textContent = 'features'
 navB[4].textContent = 'About'
 navB[5].textContent = 'Contact'
 
-// const naviGation = document.querySelector('nav');
 
 let naviGator = document.querySelector('nav');
 let add1 = document.createElement('a');
@@ -71,3 +70,6 @@ navB.forEach(x => {
 
 let ctaContent = document.querySelector('.cta h1');
 ctaContent.innerHTML = "DOM<br>Is<br>Awesome";
+
+let ctaButton = document.querySelector(".cta button");
+ctaButton.innerHTML = "Get Started"
